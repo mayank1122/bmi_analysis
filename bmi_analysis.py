@@ -35,6 +35,3 @@ print("THe standard deviation of weight is: ", sd_weight)
 # To find the bmi
 bmi = np_weight / np_height ** 2
 print("The body mass index of people in the city are: ", bmi)
-
-a = np.eye(4)
-print(a)
