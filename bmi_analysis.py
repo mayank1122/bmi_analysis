@@ -1,7 +1,7 @@
 import numpy as np
 
-np_height = np.round(np.random.normal(1.75, 0.20, 501), 2)
-np_weight = np.round(np.random.normal(60.32, 15, 501), 2)
+np_height = np.round(np.random.normal(1.75, 0.20, 50001), 2)
+np_weight = np.round(np.random.normal(60.32, 15, 50001), 2)
 np_city = np.column_stack((np_height, np_weight))
 
 # Average height of people in the city
